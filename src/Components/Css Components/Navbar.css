@@ -1,0 +1,68 @@
+:root {
+  --Navbar-color: #F27127;
+  --Navbar-Shadow: #A6360D;
+  --background-page: #402414;
+  --box: #D9D9D9;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  background-color: var(--Navbar-color);
+  height: 6.25rem;
+  width: 100%;
+  border-bottom: 0.313rem solid #A6360D;
+}
+
+.Header img {
+  width: 8.813rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 4rem;
+  margin-right: 8rem;
+}
+
+.Header a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.box li {
+  background-color: var(--box);
+  width: 14.125rem;
+  height: 3.313rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 21px;
+}
+
+.box :hover{
+  border-radius: 21px;
+  border-left: 0.3rem solid var(--Navbar-Shadow);
+  border-bottom: 0.3rem solid var(--Navbar-Shadow);
+}
+
+.box li :hover{
+  border-left: 0rem; 
+  border-bottom: 0rem;
+}
+

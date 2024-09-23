@@ -1,0 +1,60 @@
+:root {
+    --box-background: #F27127;
+    --Color-Font-Find: #CACCCB;
+    --Color-Font: white;
+    --Color-Font-Music: black;
+    --Box-Shadow: #311C10;
+}
+
+.BoxWelcome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3.125rem;
+    border-bottom: 1rem solid var(--Box-Shadow);
+    border-left: 1rem solid var(--Box-Shadow);
+    margin: 8rem;
+    background-color: var(--box-background);
+    width: 55.5rem;
+    height: 28.184rem;
+
+}
+
+.BoxWelcome h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 4rem;
+    font-size: 4rem;
+    color: var(--Color-Font);
+}
+
+.BoxWelcome h2 {
+    display: flex;
+    color: var(--Color-Font);
+    margin: 1.5rem;
+    font-size: 2.8rem;
+    text-align: center;
+    max-width: 45rem;
+}
+
+.BoxWelcome p {
+    display: flex;;
+    margin-left: 1rem;
+    color: var(--Color-Font-Find);
+}
+
+.BoxWelcome p1 {
+    display: flex;;
+    color: var(--Color-Font-Music);
+}
+.BoxOrganization {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BoxOrganization img {
+    width: 25.438rem;
+    height: 25.688rem;
+}
