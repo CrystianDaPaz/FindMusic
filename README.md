@@ -1,8 +1,10 @@
 # FindMusic
+![FindMusic-Logo](https://github.com/user-attachments/assets/92d21a7a-74e0-4377-a624-3d1e52b0ca91)
 
 ## Contextualização
 
 FindMusic é uma aplicação web desenvolvida em React que permite aos usuários pesquisar e descobrir músicas associadas a seus filmes favoritos. Com uma interface intuitiva, a aplicação oferece uma experiência imersiva para quem deseja explorar trilhas sonoras de filmes e obter informações detalhadas sobre as músicas. A proposta do projeto é conectar amantes da música com suas obras cinematográficas favoritas, promovendo uma forma de redescobrir a música que acompanhou os momentos mais memoráveis do cinema.
+![FindMusic-Lupa](https://github.com/user-attachments/assets/bbe23bee-b64b-4af4-8ec7-c944607f6397)
 
 ## Tecnologias Utilizadas
 
