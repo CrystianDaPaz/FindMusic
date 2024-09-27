@@ -42,9 +42,6 @@ Link para o Repositório da API Utilizada
 MovieTrackApi: https://github.com/Crystian-Paz/MovieTrackApi
 Lembrando de iniciar o localhost da API antes de entrar na aplicação.
 
-Imagens do Projeto
-
-
 https://github.com/user-attachments/assets/4f71add3-d84f-4aee-9458-c4307cc89345
 
 ![image](https://github.com/user-attachments/assets/4cd1f35c-60d9-42aa-abec-8bd3d2b3704b)
