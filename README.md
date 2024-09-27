@@ -20,7 +20,7 @@ FindMusic é uma aplicação web desenvolvida em React que permite aos usuários
 
    ```bash
    git clone https://github.com/CrystianDaPaz/FindMusic.git
-
+   ```bash
 2.Navegue até o diretório do projeto:
 
 ```bash
