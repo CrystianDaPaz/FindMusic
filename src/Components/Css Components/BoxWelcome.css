@@ -44,7 +44,7 @@
     color: var(--Color-Font-Find);
 }
 
-.BoxWelcome p1 {
+.BoxWelcome span {
     display: flex;;
     color: var(--Color-Font-Music);
 }

@@ -5,6 +5,10 @@
   --box: #D9D9D9;
 }
 
+#Films {
+  display: flex;
+}
+
 .navbar {
   position: fixed;
   top: 0;

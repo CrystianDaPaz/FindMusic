@@ -1,27 +1,28 @@
 :root {
-    --Color-Font-FilmsEmphasis: white;
+    --Color-Font-MusicEmphasis: white;
     --box-background: #F27127;
     --Box-Shadow: #311C10;
     --Font-Color-Popup: black;
 }
 
-.FilmsEmphasis {
+.MusicEmphasis {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.FilmsEmphasis h1 {
+.MusicEmphasis h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    color: var(--Color-Font-FilmsEmphasis);
+    color: var(--Color-Font-MusicEmphasis);
     margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
-.Films {
+.Musics {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -29,38 +30,20 @@
     scroll-behavior: smooth;
 }
 
-.Films h2{
-    color: var(--Color-Font-FilmsEmphasis);
+.Musics h2 {
+    color: var(--Color-Font-MusicEmphasis);
     font-size: 2rem;
+    margin: 4rem;
 }
 
-.Films p {
-    color: var(--Color-Font-FilmsEmphasis);
+.Musics p {
+    color: var(--Color-Font-MusicEmphasis);
     font-size: 2rem;
     display: flex;
     padding: 2rem;
 }
-.BoxFilms h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    color: var(--Color-Font-FilmsEmphasis);
-    margin-bottom: 4rem;
-    
-}
 
-.BoxFilms h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    color: var(--Color-Font-FilmsEmphasis);
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-
-.BoxFilms {
+.BoxMusics {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -72,62 +55,53 @@
     border-bottom: 0rem solid var(--Box-Shadow);
     border-left: 0rem solid var(--Box-Shadow);
     transition: all 0.3s ease;
-    animation-fill-mode: forwards; 
-
+    animation-fill-mode: forwards;
 }
 
 @keyframes shake {
-    0% {transform: perspective(100rem) rotatey(10deg) rotateX(-10deg);}
-    50% {transform: perspective(100rem) rotatey(-10deg) rotateX(-10deg);}
-    100% {transform: perspective(100rem) rotatey(-10deg) rotateX(-10deg);}
+    0% { transform: perspective(100rem) rotatey(10deg) rotateX(-10deg); }
+    50% { transform: perspective(100rem) rotatey(-10deg) rotateX(-10deg); }
+    100% { transform: perspective(100rem) rotatey(-10deg) rotateX(-10deg); }
 }
 
-.BoxFilms:hover {
+.BoxMusics:hover {
     animation-name: shake;
     animation-duration: 10s;
     animation-direction: alternate;
 }
 
-.BoxFilms img {
+.BoxMusics img {
     width: 10rem;
     height: 10rem;
-}
-
-.OrganizationFilmsEmphasis {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4rem;
 }
 
 .popup-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: var(--Font-Color-Popup);
     border-radius: 0.8rem; 
     width: 30rem;
     background-color: var(--box-background);
     border: 0.1rem solid;
-
 }
 
 .popup-content h2 {
     margin: 1rem;
     font-size: 2rem;
-    color: var(--Color-Font-FilmsEmphasis);
+    color: var(--Color-Font-MusicEmphasis);
 }
 
 .popup-content ul {
     list-style-type: none; 
-    
 }
 
 .popup-content li {
     padding: 1rem; 
     border-bottom: 0.1rem solid var(--Font-Color-Popup); 
     font-size: 1rem;
-    color: var(--Color-Font-FilmsEmphasis);
+    color: var(--Color-Font-MusicEmphasis);
 }
 
 .popup-content button {
@@ -138,11 +112,10 @@
     justify-content: center;
     height: 2rem;
     background-color: #007BFF; 
-    color: var(--Color-Font-FilmsEmphasis); 
+    color: var(--Color-Font-MusicEmphasis); 
     border: none; 
     border-radius: 0.5rem; 
     cursor: pointer;
-    margin-bottom: 1.5rem;
 }
 
 .popup-content button:hover {
@@ -156,5 +129,5 @@
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 1000; 
+    z-index: 1000;
 }
