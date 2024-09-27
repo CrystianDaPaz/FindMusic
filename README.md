@@ -20,22 +20,22 @@ FindMusic é uma aplicação web desenvolvida em React que permite aos usuários
 
    ```bash
    git clone https://github.com/CrystianDaPaz/FindMusic.git
-   ```bash
+   ```
 2.Navegue até o diretório do projeto:
 
-```bash
-cd FindMusic
-
+   ```bash
+      cd FindMusic
+    ```
 3.Instale as dependências:
 
-```bash
-npm install
-
+   ```bash
+      npm install
+   ```
 4.Inicie a aplicação:
 
-```bash
-npm run dev
-
+   ```bash
+      npm run dev
+   ```
 Acesse http://localhost:3000 no seu navegador para visualizar a aplicação.
 
 Link para o Repositório da API Utilizada
